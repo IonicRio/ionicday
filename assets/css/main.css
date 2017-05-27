@@ -2333,6 +2333,7 @@
 			display: inline-block;
 			border: solid 1px;
 			border-radius: 100%;
+			font-size: 1.5em;
 		}
 
 			.icon.alt:before {
@@ -2509,6 +2510,8 @@
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
+			margin: 0 auto !important;
+			text-align: center;
 		}
 
 			ul.icons li {
@@ -2848,6 +2851,10 @@
 			margin-top: 3em;
 			padding: 0;
 		}
+			.features li img {
+				width: 14em;
+				border: thin solid #ddd;
+			}
 
 			.features li:nth-child(1), .features li:nth-child(2), .features li:nth-child(3) {
 				margin-top: 0;
@@ -3105,6 +3112,8 @@
 	#header {
 		padding: 5em 5em 1em 5em ;
 		text-align: center;
+		background: url('../../images/ionic-logo-white.png') no-repeat center 3.5em !important;
+		background-size: 20em !important;
 	}
 
 		#header h1 {
@@ -3117,7 +3126,8 @@
 		}
 
 		#header.alt {
-			padding: 7em 5em 4em 5em ;
+			padding: 12em 5em 4em 5em ;
+
 		}
 
 			#header.alt h1 {
@@ -3162,7 +3172,7 @@
 			}
 
 				#header.alt {
-					padding: 6em 4em 3em 4em ;
+					padding: 12em 4em 3em 4em ;
 				}
 
 		}
@@ -3170,11 +3180,13 @@
 		@media screen and (max-width: 980px) {
 
 			#header {
-				padding: 4em 3em 0.1em 3em ;
+				padding: 10em 3em 0.1em 3em ;
+				background: url('../../images/ionic-logo-white.png') no-repeat center 1.5em !important;
+				background-size: 20em !important;
 			}
 
 				#header.alt {
-					padding: 5em 3em 2em 3em ;
+					padding: 10em 3em 2em 3em ;
 				}
 
 		}
@@ -3182,7 +3194,9 @@
 		@media screen and (max-width: 736px) {
 
 			#header {
-				padding: 3em 2em 0.1em 2em ;
+				padding: 8.5em 2em 0.1em 2em ;
+				background: url('../../images/ionic-logo-white.png') no-repeat center 1em !important;
+				background-size: 18em !important;
 			}
 
 				#header p {
@@ -3195,7 +3209,7 @@
 					}
 
 				#header.alt {
-					padding: 4em 2em 1em 2em ;
+					padding: 8.5em 2em 1em 2em ;
 				}
 
 					#header.alt h1 {
@@ -3207,11 +3221,13 @@
 		@media screen and (max-width: 480px) {
 
 			#header {
-				padding: 3em 1.5em 0.1em 1.5em ;
+				padding: 7m 1.5em 0.1em 1.5em ;
+				background: url('../../images/ionic-logo-white.png') no-repeat center 1em !important;
+				background-size: 14em !important;
 			}
 
 				#header.alt {
-					padding: 4em 1.5em 1em 1.5em ;
+					padding: 6.5em 1.5em 1em 1.5em ;
 				}
 
 		}
@@ -3219,11 +3235,13 @@
 		@media screen and (max-width: 360px) {
 
 			#header {
-				padding: 2.5em 1em 0.1em 1em ;
+				padding: 6.5em 1em 0.1em 1em ;
+				background-position: 1em;
+				background-size: 4em;
 			}
 
 				#header.alt {
-					padding: 3.5em 1em 0.5em 1em ;
+					padding: 6.5em 1em 0.5em 1em ;
 				}
 
 		}
