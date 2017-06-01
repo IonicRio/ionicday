@@ -3112,8 +3112,8 @@
 	#header {
 		padding: 5em 5em 1em 5em ;
 		text-align: center;
-		background: url('../../images/ionic-logo-white.png') no-repeat center 3.5em !important;
-		background-size: 20em !important;
+		background: url('../../images/ionic-logo.png') no-repeat center 3.5em !important;
+		background-size: 25em !important;
 	}
 
 		#header h1 {
@@ -3126,7 +3126,7 @@
 		}
 
 		#header.alt {
-			padding: 12em 5em 4em 5em ;
+			padding: 15em 5em 3em 5em ;
 
 		}
 
@@ -3135,14 +3135,10 @@
 			}
 
 			#header.alt > * {
-				-moz-transition: opacity 3s ease;
-				-webkit-transition: opacity 3s ease;
-				-ms-transition: opacity 3s ease;
-				transition: opacity 3s ease;
-				-moz-transition-delay: 0.5s;
-				-webkit-transition-delay: 0.5s;
-				-ms-transition-delay: 0.5s;
-				transition-delay: 0.5s;
+				-moz-transition: opacity 2s ease-in-out;
+				-webkit-transition: opacity 2s ease-in-out;
+				-ms-transition: opacity 2s ease-in-out;
+				transition: opacity 2s ease-in-out;
 				opacity: 1;
 			}
 
